@@ -3,6 +3,7 @@ AR = ar
 CFLAGS = -g -Wall -fgnu89-inline -Wno-misleading-indentation
 MAKE = make
 
+
 GCCVERSION ?= $(shell gcc --version |grep ^gcc | sed 's/^[^0-9]*\([0-9.]*\) .*/\1/g')
 #ifeq "$(GCCVERSION)" "7.3.0"
 CFLAGS = -g -Wall -fgnu89-inline -Wno-misleading-indentation
