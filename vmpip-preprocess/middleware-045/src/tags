@@ -1,0 +1,248 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR ?= ar$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS ?= -g -Wall -fgnu89-inline -Wno-misleading-indentation$/;"	m
+DFLAGS	Makefile	/^DFLAGS = -fpic -shared$/;"	m
+DLIB	Makefile	/^DLIB := libmddw.so$/;"	m
+DataRevType	mddw.c	/^	int      DataRevType;$/;"	m	struct:__anon2	file:
+DeviceID	mddw.c	/^	char     DeviceID[MDDW_MAX_BUFF_LEN];$/;"	m	struct:__anon2	file:
+GIT_ENV_VERSION	Makefile	/^GIT_ENV_VERSION=$(shell chmod +x .\/git-env.sh && .\/git-env.sh)$/;"	m
+IPAddr	mddw.c	/^	char     IPAddr[MDDW_MAX_BUFF_LEN];$/;"	m	struct:__anon2	file:
+IPOffset	dyn.h	/^	uint32_t  IPOffset;$/;"	m	struct:__anon15
+LIBSHARES	Makefile	/^LIBSHARES = ..\/..\/..\/libshares$/;"	m
+LineConfig	mddw.c	/^	LineConfig_t  LineConfig[MDDW_MAX_CONF_NUM]; 	$/;"	m	struct:__anon3	file:
+LineConfigNum	mddw.c	/^	uint32_t      LineConfigNum;$/;"	m	struct:__anon3	file:
+LineConfig_t	mddw.c	/^}LineConfig_t;$/;"	t	typeref:struct:__anon2	file:
+LineID	mddw.c	/^	int      LineID;$/;"	m	struct:__anon2	file:
+MDDW_DVB_DRIV_TYPE	mddw.c	25;"	d	file:
+MDDW_DVB_PASS_TYPE	mddw.c	26;"	d	file:
+MDDW_MAX_BUFF_LEN	mddw.h	11;"	d
+MDDW_MAX_CONF_NUM	mddw.c	24;"	d	file:
+MDDW_MAX_SC_NUM	mddw.h	13;"	d
+MDDW_MAX_THR_NUM	mddw.h	12;"	d
+MDDW_OFDM_DRIV_TYPE	mddw.c	27;"	d	file:
+MDDW_OFDM_PASS_TYPE	mddw.c	28;"	d	file:
+MODIFIED	Makefile	/^MODIFIED    = "\\"$(GIT_ENV_VERSION) $(MODIFIED_D) $(MODIFIED_T)"\\"$/;"	m
+MODIFIED_D	Makefile	/^MODIFIED_D := $(shell date +%F)$/;"	m
+MODIFIED_T	Makefile	/^MODIFIED_T := $(shell date +%T)$/;"	m
+OBJ	Makefile	/^OBJ  := $(patsubst %.c,%.o,$(SRC))$/;"	m
+OBJH	Makefile	/^OBJH := $(wildcard *.h)$/;"	m
+PLATFORM_PATH	Makefile	/^PLATFORM_PATH = ..\/..\/..\/firebird$/;"	m
+Port	mddw.c	/^	uint16_t Port;$/;"	m	struct:__anon2	file:
+ProtoType	mddw.c	/^	char     ProtoType[MDDW_MAX_BUFF_LEN];$/;"	m	struct:__anon2	file:
+SFLAGS	Makefile	/^SFLAGS = -c$/;"	m
+SLIB	Makefile	/^SLIB := libmddw.a$/;"	m
+SRC	Makefile	/^SRC  := $(wildcard *.c )$/;"	m
+ServiceId	mddw.c	/^	uint32_t      ServiceId;$/;"	m	struct:__anon3	file:
+Sta	mddw.c	/^	int      Sta;$/;"	m	struct:__anon2	file:
+Stat_Band	mddw.c	/^	char     Stat_Band[MDDW_MAX_BUFF_LEN];$/;"	m	struct:__anon2	file:
+Stat_Band	mddw.h	/^	char     Stat_Band[2];$/;"	m	struct:__anon7
+Stat_Band	mddw.h	/^	char     Stat_Band[2];$/;"	m	struct:__anon8
+Stat_Freq	mddw.c	/^	float    Stat_Freq;$/;"	m	struct:__anon2	file:
+Stat_Freq	mddw.h	/^	float    Stat_Freq;$/;"	m	struct:__anon7
+Stat_Freq	mddw.h	/^	float    Stat_Freq;$/;"	m	struct:__anon8
+Stat_ID	mddw.c	/^	int      Stat_ID;$/;"	m	struct:__anon2	file:
+Stat_ID	mddw.h	/^	int      Stat_ID;$/;"	m	struct:__anon7
+Stat_ID	mddw.h	/^	int      Stat_ID;$/;"	m	struct:__anon8
+Stat_Pol	mddw.c	/^	char     Stat_Pol[MDDW_MAX_BUFF_LEN];$/;"	m	struct:__anon2	file:
+Stat_Pol	mddw.h	/^	char     Stat_Pol[1];$/;"	m	struct:__anon7
+Stat_Pol	mddw.h	/^	char     Stat_Pol[1];$/;"	m	struct:__anon8
+Stat_Sig_Type	mddw.c	/^	char     Stat_Sig_Type[MDDW_MAX_BUFF_LEN];$/;"	m	struct:__anon2	file:
+Stat_Sig_Type	mddw.h	/^	char     Stat_Sig_Type[16];$/;"	m	struct:__anon7
+Stat_Sig_Type	mddw.h	/^	char     Stat_Sig_Type[16];$/;"	m	struct:__anon8
+Stat_Width	mddw.c	/^	float    Stat_Width;$/;"	m	struct:__anon2	file:
+Stat_Width	mddw.h	/^	float    Stat_Width;$/;"	m	struct:__anon7
+Stat_Width	mddw.h	/^	float    Stat_Width;$/;"	m	struct:__anon8
+analysisTimeStamp	dyn.h	/^	uint64_t  analysisTimeStamp;$/;"	m	struct:__anon15
+analysisTimeStamp	dyn.h	/^	uint64_t  analysisTimeStamp;$/;"	m	struct:__anon16
+analysisTimeStamp	dyn.h	/^	uint64_t  analysisTimeStamp;$/;"	m	struct:__anon17
+buffer	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon1	file:
+cJSON	cJSON.h	/^typedef struct cJSON {$/;"	s
+cJSON	cJSON.h	/^} cJSON;$/;"	t	typeref:struct:cJSON
+cJSON_AddBoolToObject	cJSON.h	137;"	d
+cJSON_AddFalseToObject	cJSON.h	136;"	d
+cJSON_AddItemReferenceToArray	cJSON.c	/^void	cJSON_AddItemReferenceToArray(cJSON *array, cJSON *item)						{cJSON_AddItemToArray(array,create_reference(item));}$/;"	f
+cJSON_AddItemReferenceToObject	cJSON.c	/^void	cJSON_AddItemReferenceToObject(cJSON *object,const char *string,cJSON *item)	{cJSON_AddItemToObject(object,string,create_reference(item));}$/;"	f
+cJSON_AddItemToArray	cJSON.c	/^void   cJSON_AddItemToArray(cJSON *array, cJSON *item)						{cJSON *c=array->child;if (!item) return; if (!c) {array->child=item;} else {while (c && c->next) c=c->next; suffix_object(c,item);}}$/;"	f
+cJSON_AddItemToObject	cJSON.c	/^void   cJSON_AddItemToObject(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (item->string) cJSON_free(item->string);item->string=cJSON_strdup(string);cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddItemToObjectCS	cJSON.c	/^void   cJSON_AddItemToObjectCS(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (!(item->type&cJSON_StringIsConst) && item->string) cJSON_free(item->string);item->string=(char*)string;item->type|=cJSON_StringIsConst;cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddNullToObject	cJSON.h	134;"	d
+cJSON_AddNumberToObject	cJSON.h	138;"	d
+cJSON_AddStringToObject	cJSON.h	139;"	d
+cJSON_AddTrueToObject	cJSON.h	135;"	d
+cJSON_Array	cJSON.h	37;"	d
+cJSON_CreateArray	cJSON.c	/^cJSON *cJSON_CreateArray(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Array;return item;}$/;"	f
+cJSON_CreateBool	cJSON.c	/^cJSON *cJSON_CreateBool(int b)					{cJSON *item=cJSON_New_Item();if(item)item->type=b?cJSON_True:cJSON_False;return item;}$/;"	f
+cJSON_CreateDoubleArray	cJSON.c	/^cJSON *cJSON_CreateDoubleArray(const double *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateFalse	cJSON.c	/^cJSON *cJSON_CreateFalse(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_False;return item;}$/;"	f
+cJSON_CreateFloatArray	cJSON.c	/^cJSON *cJSON_CreateFloatArray(const float *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateIntArray	cJSON.c	/^cJSON *cJSON_CreateIntArray(const int *numbers,int count)		{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateNull	cJSON.c	/^cJSON *cJSON_CreateNull(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_NULL;return item;}$/;"	f
+cJSON_CreateNumber	cJSON.c	/^cJSON *cJSON_CreateNumber(double num)			{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_Number;item->valuedouble=num;item->valueint=(int)num;}return item;}$/;"	f
+cJSON_CreateObject	cJSON.c	/^cJSON *cJSON_CreateObject(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Object;return item;}$/;"	f
+cJSON_CreateString	cJSON.c	/^cJSON *cJSON_CreateString(const char *string)	{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_String;item->valuestring=cJSON_strdup(string);}return item;}$/;"	f
+cJSON_CreateStringArray	cJSON.c	/^cJSON *cJSON_CreateStringArray(const char **strings,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateString(strings[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateTrue	cJSON.c	/^cJSON *cJSON_CreateTrue(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_True;return item;}$/;"	f
+cJSON_Delete	cJSON.c	/^void cJSON_Delete(cJSON *c)$/;"	f
+cJSON_DeleteItemFromArray	cJSON.c	/^void   cJSON_DeleteItemFromArray(cJSON *array,int which)			{cJSON_Delete(cJSON_DetachItemFromArray(array,which));}$/;"	f
+cJSON_DeleteItemFromObject	cJSON.c	/^void   cJSON_DeleteItemFromObject(cJSON *object,const char *string) {cJSON_Delete(cJSON_DetachItemFromObject(object,string));}$/;"	f
+cJSON_DetachItemFromArray	cJSON.c	/^cJSON *cJSON_DetachItemFromArray(cJSON *array,int which)			{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return 0;$/;"	f
+cJSON_DetachItemFromObject	cJSON.c	/^cJSON *cJSON_DetachItemFromObject(cJSON *object,const char *string) {int i=0;cJSON *c=object->child;while (c && cJSON_strcasecmp(c->string,string)) i++,c=c->next;if (c) return cJSON_DetachItemFromArray(object,i);return 0;}$/;"	f
+cJSON_Duplicate	cJSON.c	/^cJSON *cJSON_Duplicate(cJSON *item,int recurse)$/;"	f
+cJSON_False	cJSON.h	32;"	d
+cJSON_GetArrayItem	cJSON.c	/^cJSON *cJSON_GetArrayItem(cJSON *array,int item)				{cJSON *c=array->child;  while (c && item>0) item--,c=c->next; return c;}$/;"	f
+cJSON_GetArraySize	cJSON.c	/^int    cJSON_GetArraySize(cJSON *array)							{cJSON *c=array->child;int i=0;while(c)i++,c=c->next;return i;}$/;"	f
+cJSON_GetErrorPtr	cJSON.c	/^const char *cJSON_GetErrorPtr(void) {return ep;}$/;"	f
+cJSON_GetObjectItem	cJSON.c	/^cJSON *cJSON_GetObjectItem(cJSON *object,const char *string)	{cJSON *c=object->child; while (c && cJSON_strcasecmp(c->string,string)) c=c->next; return c;}$/;"	f
+cJSON_Hooks	cJSON.h	/^typedef struct cJSON_Hooks {$/;"	s
+cJSON_Hooks	cJSON.h	/^} cJSON_Hooks;$/;"	t	typeref:struct:cJSON_Hooks
+cJSON_InitHooks	cJSON.c	/^void cJSON_InitHooks(cJSON_Hooks* hooks)$/;"	f
+cJSON_InsertItemInArray	cJSON.c	/^void   cJSON_InsertItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) {cJSON_AddItemToArray(array,newitem);return;}$/;"	f
+cJSON_IsReference	cJSON.h	40;"	d
+cJSON_Minify	cJSON.c	/^void cJSON_Minify(char *json)$/;"	f
+cJSON_NULL	cJSON.h	34;"	d
+cJSON_New_Item	cJSON.c	/^static cJSON *cJSON_New_Item(void)$/;"	f	file:
+cJSON_Number	cJSON.h	35;"	d
+cJSON_Object	cJSON.h	38;"	d
+cJSON_Parse	cJSON.c	/^cJSON *cJSON_Parse(const char *value) {return cJSON_ParseWithOpts(value,0,0);}$/;"	f
+cJSON_ParseWithOpts	cJSON.c	/^cJSON *cJSON_ParseWithOpts(const char *value,const char **return_parse_end,int require_null_terminated)$/;"	f
+cJSON_Print	cJSON.c	/^char *cJSON_Print(cJSON *item)				{return print_value(item,0,1,0);}$/;"	f
+cJSON_PrintBuffered	cJSON.c	/^char *cJSON_PrintBuffered(cJSON *item,int prebuffer,int fmt)$/;"	f
+cJSON_PrintUnformatted	cJSON.c	/^char *cJSON_PrintUnformatted(cJSON *item)	{return print_value(item,0,0,0);}$/;"	f
+cJSON_ReplaceItemInArray	cJSON.c	/^void   cJSON_ReplaceItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return;$/;"	f
+cJSON_ReplaceItemInObject	cJSON.c	/^void   cJSON_ReplaceItemInObject(cJSON *object,const char *string,cJSON *newitem){int i=0;cJSON *c=object->child;while(c && cJSON_strcasecmp(c->string,string))i++,c=c->next;if(c){newitem->string=cJSON_strdup(string);cJSON_ReplaceItemInArray(object,i,newitem);}}$/;"	f
+cJSON_SetIntValue	cJSON.h	142;"	d
+cJSON_SetNumberValue	cJSON.h	143;"	d
+cJSON_String	cJSON.h	36;"	d
+cJSON_StringIsConst	cJSON.h	41;"	d
+cJSON_True	cJSON.h	33;"	d
+cJSON__h	cJSON.h	24;"	d
+cJSON_free	cJSON.c	/^static void (*cJSON_free)(void *ptr) = free;$/;"	v	file:
+cJSON_malloc	cJSON.c	/^static void *(*cJSON_malloc)(size_t sz) = malloc;$/;"	v	file:
+cJSON_strcasecmp	cJSON.c	/^static int cJSON_strcasecmp(const char *s1,const char *s2)$/;"	f	file:
+cJSON_strdup	cJSON.c	/^static char* cJSON_strdup(const char* str)$/;"	f	file:
+canuse	mddw.h	/^	int canuse[MDDW_MAX_THR_NUM];$/;"	m	struct:__anon13
+capTimeStamp	dyn.h	/^	uint64_t  capTimeStamp;$/;"	m	struct:__anon15
+capTimeStamp	dyn.h	/^	uint64_t  capTimeStamp;$/;"	m	struct:__anon16
+capTimeStamp	dyn.h	/^	uint64_t  capTimeStamp;$/;"	m	struct:__anon17
+channel	mddw.h	/^	uint32_t channel; $/;"	m	struct:__anon7
+child	cJSON.h	/^	struct cJSON *child;		\/* An array or object item will have a child pointer pointing to a chain of the items in the array\/object. *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+cover	dyn.h	/^	uint8_t cover;$/;"	m	struct:__anon18
+create_reference	cJSON.c	/^static cJSON *create_reference(cJSON *item) {cJSON *ref=cJSON_New_Item();if (!ref) return 0;memcpy(ref,item,sizeof(cJSON));ref->string=0;ref->type|=cJSON_IsReference;ref->next=ref->prev=0;return ref;}$/;"	f	file:
+dataType	dyn.h	/^	uint32_t dataType; \/\/数据类型 0x01：ip数据；0x08:以太数据；其他：链路数据$/;"	m	struct:__anon14
+ensure	cJSON.c	/^static char* ensure(printbuffer *p,int needed)$/;"	f	file:
+ep	cJSON.c	/^static const char *ep;$/;"	v	file:
+extra	dyn.h	/^	online_extra_t extra;$/;"	m	struct:__anon15
+extra	dyn.h	/^	online_extra_t extra;$/;"	m	struct:__anon16
+extra	dyn.h	/^	online_extra_t extra;$/;"	m	struct:__anon17
+firstByteMark	cJSON.c	/^static const unsigned char firstByteMark[7] = { 0x00, 0x00, 0xC0, 0xE0, 0xF0, 0xF8, 0xFC };$/;"	v	file:
+free_fn	cJSON.h	/^      void (*free_fn)(void *ptr);$/;"	m	struct:cJSON_Hooks
+get_gitenv	git-env.sh	/^get_gitenv ()$/;"	f
+hostIp	dyn.h	/^	uint32_t hostIp; \/\/主机地址$/;"	m	struct:__anon14
+ip	mddw.h	/^	char     ip[MDDW_MAX_BUFF_LEN];$/;"	m	struct:__anon7
+judge_gitcommit	git-env.sh	/^judge_gitcommit ()$/;"	f
+length	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon1	file:
+libinfo	mddw.c	/^static char *libinfo __attribute__((unused))  = "\\n@VERSION@:libmddw, 1.0.0, "VERSION"\\n" ;$/;"	v	file:
+m2AddType	dyn.h	/^	uint32_t  m2AddType;    \/\/新协议大类型下的一层类型$/;"	m	struct:__anon17
+m2BigType	dyn.h	/^	uint32_t  m2BigType;    \/\/新协议大类型$/;"	m	struct:__anon17
+malloc_fn	cJSON.h	/^      void *(*malloc_fn)(size_t sz);$/;"	m	struct:cJSON_Hooks
+mddw_conf_init	mddw.c	/^static int mddw_conf_init(mddw_json_conf_t *mddw_json, char *json)$/;"	f	file:
+mddw_dyn_init_t	mddw.h	/^}mddw_dyn_init_t;$/;"	t	typeref:struct:__anon10
+mddw_dyn_push_t	mddw.h	/^}mddw_dyn_push_t;$/;"	t	typeref:struct:__anon11
+mddw_gsc	mddw.c	/^static mddw_gsc_info_t mddw_gsc[4];$/;"	v	file:
+mddw_gsc_info_t	mddw.h	/^}mddw_gsc_info_t;$/;"	t	typeref:struct:__anon9
+mddw_init	mddw.c	/^int mddw_init(mddw_init_t *mddw_init, online_helper_t *online)$/;"	f
+mddw_init_helper	mddw.c	/^typedef int mddw_init_helper(mddw_init_t *mddw_init, online_helper_t *online);$/;"	t	file:
+mddw_init_t	mddw.h	/^}mddw_init_t;$/;"	t	typeref:struct:__anon13
+mddw_json_conf_t	mddw.c	/^}mddw_json_conf_t;$/;"	t	typeref:struct:__anon3	file:
+mddw_push_info	mddw.c	/^int mddw_push_info(mddw_push_t *mddw_push)$/;"	f
+mddw_push_info_helper	mddw.c	/^typedef int mddw_push_info_helper(mddw_push_t *mddw_push);$/;"	t	file:
+mddw_push_t	mddw.h	/^}mddw_push_t;$/;"	t	typeref:struct:__anon12
+mddw_read_json	mddw.c	/^static int mddw_read_json(mddw_json_conf_t *mddw_json, char *filename)$/;"	f	file:
+mddw_read_xml	mddw.c	/^static void *mddw_read_xml(mddw_xml_conf_t *mddw_xml, char *filename)$/;"	f	file:
+mddw_sc	mddw.h	/^	mddw_sc_info_t mddw_sc[MDDW_MAX_SC_NUM];$/;"	m	struct:__anon9
+mddw_sc_info_t	mddw.h	/^}mddw_sc_info_t;$/;"	t	typeref:struct:__anon7
+mddw_sc_num	mddw.h	/^	uint32_t       mddw_sc_num;$/;"	m	struct:__anon9
+mddw_sc_t	mddw.h	/^}mddw_sc_t;$/;"	t	typeref:struct:__anon8
+mddw_set_conf	mddw.c	/^static int mddw_set_conf(mddw_json_conf_t *mddw_json)$/;"	f	file:
+mddw_set_conf_exc	mddw.c	/^static int mddw_set_conf_exc(int type, LineConfig_t *LineConfig)$/;"	f	file:
+mddw_set_xml_conf	mddw.c	/^static int mddw_set_xml_conf(mddw_xml_conf_t *mddw_xml)$/;"	f	file:
+mddw_xml_conf_t	mddw.c	/^}mddw_xml_conf_t;$/;"	t	typeref:struct:__anon5	file:
+next	cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+offset	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon1	file:
+online_dyn_load_t	mddw.c	/^}online_dyn_load_t;$/;"	t	typeref:struct:__anon6	file:
+online_extra_t	dyn.h	/^}online_extra_t;$/;"	t	typeref:struct:__anon14
+online_fb_t	dyn.h	/^}online_fb_t;$/;"	t	typeref:struct:__anon15
+online_fc_t	dyn.h	/^}online_fc_t;$/;"	t	typeref:struct:__anon16
+online_fd_t	dyn.h	/^}online_fd_t;$/;"	t	typeref:struct:__anon17
+online_helper_t	dyn.h	/^}online_helper_t;$/;"	t	typeref:struct:__anon19
+online_mddw_init	mddw.c	/^	online_mddw_init_helper *online_mddw_init;$/;"	m	struct:__anon6	file:
+online_mddw_init_helper	mddw.c	/^typedef int online_mddw_init_helper(mddw_dyn_init_t *mddw_dyn_init, mddw_gsc_info_t *mddw_gsc);$/;"	t	file:
+online_mddw_load	mddw.c	/^static void *online_mddw_load(char *dyn_name)$/;"	f	file:
+online_mddw_push	mddw.c	/^	online_mddw_push_helper *online_mddw_push;$/;"	m	struct:__anon6	file:
+online_mddw_push_helper	mddw.c	/^typedef int online_mddw_push_helper(mddw_dyn_push_t *mddw_dyn_push);$/;"	t	file:
+online_pv_t	dyn.h	/^}online_pv_t;$/;"	t	typeref:struct:__anon18
+online_register	mddw.c	/^	online_register_helper  *online_register;$/;"	m	struct:__anon6	file:
+online_register_helper	mddw.c	/^typedef int online_register_helper(online_helper_t *online_helper);$/;"	t	file:
+onlinefh_entry	dyn.h	/^	onlinefh_entry_helper *onlinefh_entry;$/;"	m	struct:__anon19
+onlinefh_entry_helper	dyn.h	/^typedef int onlinefh_entry_helper(void *session, online_fd_t *fd, uint8_t *data, uint32_t datalen, uint16_t pro_type, uint32_t channel, int thr_id, void **user_data);$/;"	t
+onlineip_entry	dyn.h	/^	onlineip_entry_helper *onlineip_entry;$/;"	m	struct:__anon19
+onlineip_entry_helper	dyn.h	/^typedef int onlineip_entry_helper(void *session, online_fb_t *fb, uint8_t *data, uint32_t datalen, uint32_t datatype, uint32_t channel, int thr_id, void **user_data);$/;"	t
+onlineld_entry	dyn.h	/^	onlineld_entry_helper *onlineld_entry;$/;"	m	struct:__anon19
+onlineld_entry_helper	dyn.h	/^typedef int onlineld_entry_helper(void *session, online_fc_t *fc, uint8_t *data, uint32_t datalen, uint32_t channel, int thr_id, void **user_data);$/;"	t
+onlinepv_entry	dyn.h	/^	onlinepv_entry_helper *onlinepv_entry;$/;"	m	struct:__anon19
+onlinepv_entry_helper	dyn.h	/^typedef int onlinepv_entry_helper(void *session, online_pv_t *pv, uint8_t *data, uint32_t datalen, uint32_t channel, int thr_id, void **user_data);$/;"	t
+parse_array	cJSON.c	/^static const char *parse_array(cJSON *item,const char *value)$/;"	f	file:
+parse_hex4	cJSON.c	/^static unsigned parse_hex4(const char *str)$/;"	f	file:
+parse_number	cJSON.c	/^static const char *parse_number(cJSON *item,const char *num)$/;"	f	file:
+parse_object	cJSON.c	/^static const char *parse_object(cJSON *item,const char *value)$/;"	f	file:
+parse_string	cJSON.c	/^static const char *parse_string(cJSON *item,const char *str)$/;"	f	file:
+parse_value	cJSON.c	/^static const char *parse_value(cJSON *item,const char *value)$/;"	f	file:
+port	mddw.c	/^	uint16_t port;$/;"	m	struct:__anon4	file:
+port	mddw.h	/^	uint16_t port;$/;"	m	struct:__anon7
+pow2gt	cJSON.c	/^static int pow2gt (int x)	{	--x;	x|=x>>1;	x|=x>>2;	x|=x>>4;	x|=x>>8;	x|=x>>16;	return x+1;	}$/;"	f	file:
+prev	cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::
+print_array	cJSON.c	/^static char *print_array(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+print_number	cJSON.c	/^static char *print_number(cJSON *item,printbuffer *p)$/;"	f	file:
+print_object	cJSON.c	/^static char *print_object(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+print_string	cJSON.c	/^static char *print_string(cJSON *item,printbuffer *p)	{return print_string_ptr(item->valuestring,p);}$/;"	f	file:
+print_string_ptr	cJSON.c	/^static char *print_string_ptr(const char *str,printbuffer *p)$/;"	f	file:
+print_value	cJSON.c	/^static char *print_value(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+printbuffer	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	t	typeref:struct:__anon1	file:
+sessId	dyn.h	/^	char      sessId[215];$/;"	m	struct:__anon15
+sessId	dyn.h	/^	char      sessId[215];$/;"	m	struct:__anon16
+sessId	dyn.h	/^	char      sessId[215];$/;"	m	struct:__anon17
+sessIdLen	dyn.h	/^	int       sessIdLen;$/;"	m	struct:__anon15
+sessIdLen	dyn.h	/^	int       sessIdLen;$/;"	m	struct:__anon16
+sessIdLen	dyn.h	/^	int       sessIdLen;$/;"	m	struct:__anon17
+skip	cJSON.c	/^static const char *skip(const char *in) {while (in && *in && (unsigned char)*in<=32) in++; return in;}$/;"	f	file:
+string	cJSON.h	/^	char *string;				\/* The item's name string, if this item is the child of, or is in the list of subitems of an object. *\/$/;"	m	struct:cJSON
+suffix_object	cJSON.c	/^static void suffix_object(cJSON *prev,cJSON *item) {prev->next=item;item->prev=prev;}$/;"	f	file:
+thr_id	mddw.h	/^	int thr_id[MDDW_MAX_THR_NUM];$/;"	m	struct:__anon10
+thr_id	mddw.h	/^	int thr_id[MDDW_MAX_THR_NUM];$/;"	m	struct:__anon13
+thr_num	mddw.h	/^	int thr_num;$/;"	m	struct:__anon12
+thrnum	mddw.h	/^	int thrnum;                  $/;"	m	struct:__anon10
+thrnum	mddw.h	/^	int thrnum;$/;"	m	struct:__anon11
+thrnum	mddw.h	/^	int thrnum;$/;"	m	struct:__anon13
+type	cJSON.h	/^	int type;					\/* The type of the item, as above. *\/$/;"	m	struct:cJSON
+udp_recv	mddw.c	/^	udp_recv_info_t udp_recv[MDDW_MAX_CONF_NUM];$/;"	m	struct:__anon5	file:
+udp_recv_info_t	mddw.c	/^}udp_recv_info_t;$/;"	t	typeref:struct:__anon4	file:
+udp_recv_num	mddw.c	/^	uint32_t        udp_recv_num;$/;"	m	struct:__anon5	file:
+update	cJSON.c	/^static int update(printbuffer *p)$/;"	f	file:
+userInfo	dyn.h	/^	uint8_t   *userInfo;$/;"	m	struct:__anon15
+userInfo	dyn.h	/^	uint8_t   *userInfo;$/;"	m	struct:__anon16
+userInfo	dyn.h	/^	uint8_t   *userInfo;$/;"	m	struct:__anon17
+userInfoLen	dyn.h	/^	uint32_t  userInfoLen;$/;"	m	struct:__anon15
+userInfoLen	dyn.h	/^	uint32_t  userInfoLen;$/;"	m	struct:__anon16
+userInfoLen	dyn.h	/^	uint32_t  userInfoLen;$/;"	m	struct:__anon17
+userInfoType	dyn.h	/^	uint32_t  userInfoType;  \/\/10005001->userInfoType,为userInfo的类型指定项,0x10005094为用户标签可用最小值$/;"	m	struct:__anon15
+userInfoType	dyn.h	/^	uint32_t  userInfoType;  \/\/10005001->userInfoType,为userInfo的类型指定项,0x10005094为用户标签可用最小值$/;"	m	struct:__anon16
+userInfoType	dyn.h	/^	uint32_t  userInfoType;  \/\/10005001->userInfoType,为userInfo的类型指定项,0x10005094为用户标签可用最小值$/;"	m	struct:__anon17
+valuedouble	cJSON.h	/^	double valuedouble;			\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valueint	cJSON.h	/^	int valueint;				\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valuestring	cJSON.h	/^	char *valuestring;			\/* The item's string, if type==cJSON_String *\/$/;"	m	struct:cJSON

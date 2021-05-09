@@ -1,0 +1,267 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCESSFILEERROR	SoftBus.h	323;"	d
+ALREADY_REG	SoftBus.h	326;"	d
+APPENTITYNOERROR	SoftBus.h	308;"	d
+APPENTITYNOERROR	SoftBus.h	309;"	d
+AR	Makefile	/^AR ?= ar$/;"	m
+BUFFERINSUFFICIENT	SoftBus.h	320;"	d
+BUSBUFFERFULL	SoftBus.h	319;"	d
+BUSCONTROLLERFAILED	SoftBus.h	307;"	d
+BUSCORE_LOAD_INVALID	SoftBus.h	305;"	d
+BUSCTRL_APP_NOTEXIST	SoftBus.h	335;"	d
+BUSCTRL_PARAM_ERR	SoftBus.h	333;"	d
+BUSCTRL_REPLY_ERR	SoftBus.h	334;"	d
+BUSDATAIDENT	SoftBus.h	/^} BUSDATAIDENT;$/;"	t	typeref:struct:BusDataIdent
+BUSERRMES	SoftBus.h	/^} BUSERRMES;$/;"	t	typeref:struct:BusErrMes
+BUS_ENV_INVALID	SoftBus.h	325;"	d
+BUS_LISTEN_PORT_ERR	SoftBus.h	336;"	d
+BUS_UDP_PORT_ERR	SoftBus.h	337;"	d
+BYTE	SoftBus.h	/^typedef unsigned char	BYTE;$/;"	t
+BusDataIdent	SoftBus.h	/^typedef struct BusDataIdent{$/;"	s
+BusErrMes	SoftBus.h	/^typedef struct BusErrMes{$/;"	s
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS ?= -g -Wall -rdynamic -w  $/;"	m
+CONN_RECV_FULL	SoftBus.h	329;"	d
+CONTROLTIMEOUT	SoftBus.h	321;"	d
+CREATESIGNALFAILED	SoftBus.h	348;"	d
+CallBackFunc	SoftBus.h	/^typedef void(__stdcall *CallBackFunc)(const BUSDATAIDENT stDataIdent,  const int iLen,  const  BYTE*  pbyData);$/;"	t
+DATA_TYPE_ERROR	SoftBus.h	317;"	d
+DESTAPPFAILED	SoftBus.h	345;"	d
+DESTHOSTFAILED	SoftBus.h	344;"	d
+DEST_NUM_ERR	SoftBus.h	341;"	d
+DEST_PORT_ERR	SoftBus.h	342;"	d
+DEST_REL_ERR	SoftBus.h	340;"	d
+DEST_TYPE_ERR	SoftBus.h	339;"	d
+DFLAGS	Makefile	/^DFLAGS = -fpic -shared$/;"	m
+DLIB	Makefile	/^DLIB := libhk.so$/;"	m
+DYN_MAX_USER_NUM	dyn.c	33;"	d	file:
+ERR_MSG_MAX_LEN	SoftBus.h	32;"	d
+FILE_SIZE_INVALID	SoftBus.h	322;"	d
+FOOTNOERROR	SoftBus.h	313;"	d
+FOOTNUMERROR	SoftBus.h	312;"	d
+FOOTPRIERROR	SoftBus.h	315;"	d
+FOOTTYPEERROR	SoftBus.h	314;"	d
+FOOT_NOT_EXIST	SoftBus.h	316;"	d
+GIT_ENV_VERSION	Makefile	/^GIT_ENV_VERSION=$(shell chmod +x .\/git-env.sh && .\/git-env.sh)$/;"	m
+IPOffset	dyn.h	/^	uint32_t  IPOffset;$/;"	m	struct:__anon12
+IP_STR_LEN	SoftBus.h	31;"	d
+LIBSHARES	Makefile	/^LIBSHARES = ..\/..\/..\/libshares$/;"	m
+MAX_DESTNODE_NUM	SoftBus.h	39;"	d
+MAX_FOOT_NUM	SoftBus.h	37;"	d
+MAX_SLOT_NUM	SoftBus.h	35;"	d
+MDDW_MAX_BUFF_LEN	mddw.h	11;"	d
+MDDW_MAX_SC_NUM	mddw.h	13;"	d
+MDDW_MAX_THR_NUM	mddw.h	12;"	d
+MODIFIED	Makefile	/^MODIFIED    = "\\"$(GIT_ENV_VERSION) $(MODIFIED_D) $(MODIFIED_T)"\\"$/;"	m
+MODIFIED_D	Makefile	/^MODIFIED_D := $(shell date +%F)$/;"	m
+MODIFIED_T	Makefile	/^MODIFIED_T := $(shell date +%T)$/;"	m
+NOENOUGHMEMORY	SoftBus.h	346;"	d
+NOTIFYID	SoftBus.h	/^}NOTIFYID;$/;"	t	typeref:struct:NotifyId
+NotifyId	SoftBus.h	/^typedef struct NotifyId$/;"	s
+OBJ	Makefile	/^OBJ  := $(patsubst %.c,%.o,$(SRC))$/;"	m
+OBJH	Makefile	/^OBJH := $(wildcard *.h)$/;"	m
+ONLINE_MAGIC_BQ_BASE_FR	dyn.c	369;"	d	file:
+ONLINE_MAGIC_BQ_YUAN	dyn.c	370;"	d	file:
+ONLINE_MAGIC_IP	dyn.c	29;"	d	file:
+ONLINE_MAGIC_M	dyn.c	30;"	d	file:
+ONLINE_MAGIC_Y	dyn.c	31;"	d	file:
+OnNotify	SoftBus.h	/^typedef void(__stdcall *OnNotify)(const NOTIFYID& stNotifyID);$/;"	t
+OnRecvData	SoftBus.h	/^	CallBackFunc OnRecvData;		\/\/ ’µΩ ˝æ›µƒªÿµ˜∫Ø ˝$/;"	m	struct:RegInfo
+OnRecvDataOfFoot	SoftBus.h	/^	CallBackFunc OnRecvDataOfFoot[MAX_FOOT_NUM];	\/\/À˘”–Ω” ’“˝Ω≈µƒƒ¨»œªÿµ˜∫Ø ˝£¨ƒ¨»œ÷µŒ™NULL$/;"	m	struct:Slot
+PARAM_ERROR	SoftBus.h	303;"	d
+PLATFORM_PATH	Makefile	/^PLATFORM_PATH = ..\/..\/..\/firebird$/;"	m
+PTR_INVALID	SoftBus.h	304;"	d
+READ_BUSSYSFILE_ERROR	SoftBus.h	332;"	d
+REGINFO	SoftBus.h	/^} REGINFO; $/;"	t	typeref:struct:RegInfo
+REG_INS_FULL	SoftBus.h	330;"	d
+RegInfo	SoftBus.h	/^typedef struct RegInfo{$/;"	s
+SFLAGS	Makefile	/^SFLAGS = -c$/;"	m
+SLIB	Makefile	/^SLIB := libhk.a$/;"	m
+SLOT	SoftBus.h	/^} SLOT;	\/\/≤Â≤€Ω·ππ∂®“Â$/;"	t	typeref:struct:Slot
+SLOTNUMERROR	SoftBus.h	310;"	d
+SLOTTYPEERROR	SoftBus.h	311;"	d
+SOCK_LISTEN_PORT_ERR	SoftBus.h	338;"	d
+SOFTBUS_API	SoftBus.h	20;"	d
+SOFTBUS_API	SoftBus.h	22;"	d
+SRC	Makefile	/^SRC  := $(wildcard *.c )$/;"	m
+STARTRECEIVERFAILED	SoftBus.h	327;"	d
+START_THRD_FAILD	SoftBus.h	328;"	d
+SUCCESS	SoftBus.h	302;"	d
+Slot	SoftBus.h	/^typedef struct Slot{$/;"	s
+Stat_Band	mddw.h	/^	char     Stat_Band[2];$/;"	m	struct:__anon4
+Stat_Band	mddw.h	/^	char     Stat_Band[2];$/;"	m	struct:__anon5
+Stat_Freq	mddw.h	/^	float    Stat_Freq;$/;"	m	struct:__anon4
+Stat_Freq	mddw.h	/^	float    Stat_Freq;$/;"	m	struct:__anon5
+Stat_ID	mddw.h	/^	int      Stat_ID;$/;"	m	struct:__anon4
+Stat_ID	mddw.h	/^	int      Stat_ID;$/;"	m	struct:__anon5
+Stat_Pol	mddw.h	/^	char     Stat_Pol[1];$/;"	m	struct:__anon4
+Stat_Pol	mddw.h	/^	char     Stat_Pol[1];$/;"	m	struct:__anon5
+Stat_Sig_Type	mddw.h	/^	char     Stat_Sig_Type[16];$/;"	m	struct:__anon4
+Stat_Sig_Type	mddw.h	/^	char     Stat_Sig_Type[16];$/;"	m	struct:__anon5
+Stat_Width	mddw.h	/^	float    Stat_Width;$/;"	m	struct:__anon4
+Stat_Width	mddw.h	/^	float    Stat_Width;$/;"	m	struct:__anon5
+WORD	SoftBus.h	/^typedef unsigned short	WORD;$/;"	t
+_GNU_SOURCE	dyn.c	8;"	d	file:
+_SOFTBUS_H_	SoftBus.h	8;"	d
+__cdecl	SoftBus.h	28;"	d
+__declspec	SoftBus.h	27;"	d
+__stdcall	SoftBus.h	26;"	d
+analysisTimeStamp	dyn.h	/^	uint64_t  analysisTimeStamp;$/;"	m	struct:__anon12
+analysisTimeStamp	dyn.h	/^	uint64_t  analysisTimeStamp;$/;"	m	struct:__anon13
+analysisTimeStamp	dyn.h	/^	uint64_t  analysisTimeStamp;$/;"	m	struct:__anon14
+arFoot	SoftBus.h	/^	int arFoot[MAX_FOOT_NUM][3];			\/\/µ⁄∂˛Œ¨µƒ»˝¡–∑÷±±Ì æ“˝Ω≈–Ú∫≈°¢¿‡–Õ–Ú∫≈°¢”≈œ»º∂$/;"	m	struct:Slot
+arSlotGroup	SoftBus.h	/^	SLOT arSlotGroup[MAX_SLOT_NUM];		\/\/≤Â≤€◊È£¨∞¸¿®£∫¡˜≤Â≤€°¢øÿ÷∆≤Â≤€°¢◊¥Ã¨≤Â≤€$/;"	m	struct:RegInfo
+canuse	mddw.h	/^	int canuse[MDDW_MAX_THR_NUM];$/;"	m	struct:__anon10
+capTimeStamp	dyn.h	/^	uint64_t  capTimeStamp;$/;"	m	struct:__anon12
+capTimeStamp	dyn.h	/^	uint64_t  capTimeStamp;$/;"	m	struct:__anon13
+capTimeStamp	dyn.h	/^	uint64_t  capTimeStamp;$/;"	m	struct:__anon14
+channel	dyn.c	/^	uint8_t  channel;$/;"	m	struct:__anon1	file:
+channel	mddw.h	/^	uint32_t channel; $/;"	m	struct:__anon4
+check_helper	dyn.c	/^static int check_helper(void *ele, char *data, int dataLen, void **user_data)$/;"	f	file:
+check_time	dyn.c	/^static uint32_t check_time = 10 * 1000;$/;"	v	file:
+cover	dyn.h	/^	uint8_t cover;$/;"	m	struct:__anon15
+dataType	dyn.h	/^	uint32_t dataType; \/\/Êï∞ÊçÆÁ±ªÂûã 0x01ÔºöipÊï∞ÊçÆÔºõ0x08:‰ª•Â§™Êï∞ÊçÆÔºõÂÖ∂‰ªñÔºöÈìæË∑ØÊï∞ÊçÆ$/;"	m	struct:__anon11
+datatype_eth	dyn.c	36;"	d	file:
+datatype_ip	dyn.c	35;"	d	file:
+datatype_not_ip	dyn.c	37;"	d	file:
+do_onlinelb_helper	dyn.c	/^static int do_onlinelb_helper(online_fb_t *fb, uint8_t *ip, uint32_t ip_len, uint32_t channel, int thr_id)$/;"	f	file:
+do_onlineld_helper	dyn.c	/^static int do_onlineld_helper(online_fd_t *fd, uint8_t *data, uint32_t datalen, uint16_t pro_type, uint32_t channel, int thr_id)$/;"	f	file:
+do_onlinepv_helper	dyn.c	/^static int do_onlinepv_helper(online_pv_t *pv, uint8_t *data, uint32_t datalen, uint32_t channel, int thr_id)$/;"	f	file:
+extra	dyn.h	/^	online_extra_t extra;$/;"	m	struct:__anon12
+extra	dyn.h	/^	online_extra_t extra;$/;"	m	struct:__anon13
+extra	dyn.h	/^	online_extra_t extra;$/;"	m	struct:__anon14
+g_online_helper	dyn.c	/^static online_helper_t g_online_helper[DYN_MAX_USER_NUM];$/;"	v	file:
+g_online_helper_num	dyn.c	/^static int g_online_helper_num = 0;$/;"	v	file:
+get_gitenv	git-env.sh	/^get_gitenv ()$/;"	f
+gonline_fb	dyn.c	/^static online_fb_t gonline_fb[64];$/;"	v	file:
+hk_header_t	dyn.c	/^}hk_header_t;$/;"	t	typeref:struct:__anon2	file:
+hk_proc	dyn.c	/^static hk_proc_helper *hk_proc = NULL;$/;"	v	file:
+hk_proc_helper	dyn.c	/^typedef int hk_proc_helper(unsigned char *BBdatabuf, int len, unsigned char *databuf, int *datalen, unsigned char *cBuf, int *cLen, int thr_id);$/;"	t	file:
+hostIp	dyn.h	/^	uint32_t hostIp; \/\/‰∏ªÊú∫Âú∞ÂùÄ$/;"	m	struct:__anon11
+iAppEntityNo	SoftBus.h	/^	int		iAppEntityNo;			\/\/”¶”√ µÃÂ∫≈$/;"	m	struct:NotifyId
+iAppEntityNo	SoftBus.h	/^	int iAppEntityNo;			\/\/”¶”√ µÃÂ∫≈$/;"	m	struct:RegInfo
+iDataType	SoftBus.h	/^	int iDataType;					\/\/ ˝æ›–Œ Ω£∫1£≠øÈ ˝æ›£ª2£≠ ˝æ›Œƒº˛$/;"	m	struct:BusDataIdent
+iDestAppEntityNo	SoftBus.h	/^	int iDestAppEntityNo;			\/\/Ω” ’∑Ω”¶”√ µÃÂ∫≈$/;"	m	struct:BusDataIdent
+iDestFootNo	SoftBus.h	/^	int iDestFootNo;				\/\/Ω” ’∑Ω“˝Ω≈–Ú∫≈$/;"	m	struct:BusDataIdent
+iErrCode	SoftBus.h	/^	int iErrCode;				\/\/¥ÌŒÛ¥˙¬Î$/;"	m	struct:BusErrMes
+iErrFootNo	SoftBus.h	/^	int iErrFootNo;			\/\/≥ˆ¥Ìµƒ“˝Ω≈–Ú∫≈$/;"	m	struct:BusErrMes
+iErrSlotTypeNo	SoftBus.h	/^	int iErrSlotTypeNo;			\/\/≥ˆ¥Ìµƒ≤Â≤€¿‡–Õ–Ú∫≈$/;"	m	struct:BusErrMes
+iFootNo	SoftBus.h	/^	int		iFootNo;				\/\/∑¢ÀÕ∑Ω“˝Ω≈–Ú∫≈$/;"	m	struct:NotifyId
+iFootNum	SoftBus.h	/^	int iFootNum;				\/\/“˝Ω≈ ˝¡ø$/;"	m	struct:Slot
+iSlotNum	SoftBus.h	/^	int iSlotNum;				\/\/∏√◊È≤Â≤€µƒ≤Â≤€◊‹ ˝$/;"	m	struct:RegInfo
+iSlotType	SoftBus.h	/^	int		iSlotType;				\/\/≤Â≤€¿‡–Õ–Ú∫≈$/;"	m	struct:NotifyId
+iSlotType	SoftBus.h	/^	int iSlotType;					\/\/≤Â≤€¿‡–Õ–Ú∫≈$/;"	m	struct:BusDataIdent
+iSlotType	SoftBus.h	/^	int iSlotType;				\/\/≤Â≤€¿‡–Õ–Ú∫≈$/;"	m	struct:Slot
+iSrcAppEntityNo	SoftBus.h	/^	int iSrcAppEntityNo;			\/\/∑¢ÀÕ∑Ω”¶”√ µÃÂ∫≈$/;"	m	struct:BusDataIdent
+iSrcFootNo	SoftBus.h	/^	int iSrcFootNo;					\/\/∑¢ÀÕ∑Ω“˝Ω≈–Ú∫≈$/;"	m	struct:BusDataIdent
+iValue	SoftBus.h	/^	int		iValue;					\/\/÷µ£¨æﬂÃÂ“‚“Â”…Õ®÷™¿‡–Õæˆ∂®$/;"	m	struct:NotifyId
+id	dyn.c	/^	uint16_t   id;$/;"	m	struct:__anon2	file:
+ip	mddw.h	/^	char     ip[MDDW_MAX_BUFF_LEN];$/;"	m	struct:__anon4
+judge_gitcommit	git-env.sh	/^judge_gitcommit ()$/;"	f
+lenflag	dyn.c	/^	uint16_t lenflag;$/;"	m	struct:__anon1	file:
+libinfo	dyn.c	/^static char *libinfo __attribute__((unused))  = "\\n@VERSION@:hk, 1.0.0, "VERSION"\\n" ;$/;"	v	file:
+m2AddType	dyn.h	/^	uint32_t  m2AddType;    \/\/Êñ∞ÂçèËÆÆÂ§ßÁ±ªÂûã‰∏ãÁöÑ‰∏ÄÂ±ÇÁ±ªÂûã$/;"	m	struct:__anon14
+m2BigType	dyn.h	/^	uint32_t  m2BigType;    \/\/Êñ∞ÂçèËÆÆÂ§ßÁ±ªÂûã$/;"	m	struct:__anon14
+m_mddw_gsc	dyn.c	/^static mddw_gsc_info_t m_mddw_gsc;$/;"	v	file:
+magic	dyn.c	/^	uint32_t magic;$/;"	m	struct:__anon1	file:
+maxreadbuflen	dyn.c	/^static uint32_t maxreadbuflen = 10*1024*1024 + 65535;$/;"	v	file:
+mddw_dyn_init_t	mddw.h	/^}mddw_dyn_init_t;$/;"	t	typeref:struct:__anon7
+mddw_dyn_push_t	mddw.h	/^}mddw_dyn_push_t;$/;"	t	typeref:struct:__anon8
+mddw_gsc_info_t	mddw.h	/^}mddw_gsc_info_t;$/;"	t	typeref:struct:__anon6
+mddw_init_t	mddw.h	/^}mddw_init_t;$/;"	t	typeref:struct:__anon10
+mddw_push_t	mddw.h	/^}mddw_push_t;$/;"	t	typeref:struct:__anon9
+mddw_sc	mddw.h	/^	mddw_sc_info_t mddw_sc[MDDW_MAX_SC_NUM];$/;"	m	struct:__anon6
+mddw_sc_info_t	mddw.h	/^}mddw_sc_info_t;$/;"	t	typeref:struct:__anon4
+mddw_sc_num	mddw.h	/^	uint32_t       mddw_sc_num;$/;"	m	struct:__anon6
+mddw_sc_t	mddw.h	/^}mddw_sc_t;$/;"	t	typeref:struct:__anon5
+network	dyn.c	/^	uint8_t    network[3];$/;"	m	struct:__anon2	file:
+online_data_check	dyn.c	/^static int online_data_check(uint8_t *data, uint32_t datalen, int thr_id)$/;"	f	file:
+online_data_do	dyn.c	/^static int online_data_do(uint8_t *data, uint32_t len, int thr_id)$/;"	f	file:
+online_data_do_p2	dyn.c	/^static int online_data_do_p2(uint32_t magic, char *data, int len, int thr_id)$/;"	f	file:
+online_data_get	dyn.c	/^static void online_data_get(void *ele, uint8_t *data, uint32_t len, int thr_id)$/;"	f	file:
+online_data_ip_put	dyn.c	/^static void online_data_ip_put(uint8_t *data, uint32_t len, int thr_id)$/;"	f	file:
+online_data_m_put	dyn.c	/^static void online_data_m_put(uint8_t *data, uint32_t len, int thr_id)$/;"	f	file:
+online_data_proc	dyn.c	/^static void *online_data_proc(uint8_t *ele, char *data, uint32_t dataLen, int thr_id)$/;"	f	file:
+online_data_read_dir	dyn.c	/^static int online_data_read_dir(char *path, int thr_id)$/;"	f	file:
+online_data_read_proc	dyn.c	/^static int online_data_read_proc(char *path, int thr_id)$/;"	f	file:
+online_data_state_put	dyn.c	/^static void online_data_state_put(int thr_id)$/;"	f	file:
+online_data_write	dyn.c	/^static void online_data_write(char *filename, char *data, uint32_t dataLen, int thr_id)$/;"	f	file:
+online_data_y_put	dyn.c	/^static void online_data_y_put(uint8_t *data, uint32_t len, int thr_id)$/;"	f	file:
+online_extra_t	dyn.h	/^}online_extra_t;$/;"	t	typeref:struct:__anon11
+online_fb_t	dyn.h	/^}online_fb_t;$/;"	t	typeref:struct:__anon12
+online_fc_t	dyn.h	/^}online_fc_t;$/;"	t	typeref:struct:__anon13
+online_fd_t	dyn.h	/^}online_fd_t;$/;"	t	typeref:struct:__anon14
+online_helper_t	dyn.h	/^}online_helper_t;$/;"	t	typeref:struct:__anon16
+online_hk_init	dyn.c	/^static void *online_hk_init(char *dyn_name)$/;"	f	file:
+online_mddw_init	dyn.c	/^int online_mddw_init(mddw_dyn_init_t *mddw_dyn_init, mddw_gsc_info_t *mddw_gsc)$/;"	f
+online_mddw_push	dyn.c	/^int online_mddw_push(mddw_dyn_push_t *mddw_dyn_push)$/;"	f
+online_pv_t	dyn.h	/^}online_pv_t;$/;"	t	typeref:struct:__anon15
+online_rbq_get	dyn.c	/^static void *online_rbq_get(void *ele)$/;"	f	file:
+online_rbq_init	dyn.c	/^static int online_rbq_init(int thr_id, int use_id)$/;"	f	file:
+online_rbq_init_t	dyn.c	/^}online_rbq_init_t;$/;"	t	typeref:struct:__anon3	file:
+online_register	dyn.c	/^int online_register(online_helper_t *online_helper)$/;"	f
+online_state_time	dyn.c	/^static uint64_t online_state_time[64];$/;"	v	file:
+onlinefh_entry	dyn.h	/^	onlinefh_entry_helper *onlinefh_entry;$/;"	m	struct:__anon16
+onlinefh_entry_helper	dyn.h	/^typedef int onlinefh_entry_helper(void *session, online_fd_t *fd, uint8_t *data, uint32_t datalen, uint16_t pro_type, uint32_t channel, int thr_id, void **user_data);$/;"	t
+onlineip_entry	dyn.h	/^	onlineip_entry_helper *onlineip_entry;$/;"	m	struct:__anon16
+onlineip_entry_helper	dyn.h	/^typedef int onlineip_entry_helper(void *session, online_fb_t *fb, uint8_t *data, uint32_t datalen, uint32_t datatype, uint32_t channel, int thr_id, void **user_data);$/;"	t
+onlineld_entry	dyn.h	/^	onlineld_entry_helper *onlineld_entry;$/;"	m	struct:__anon16
+onlineld_entry_helper	dyn.h	/^typedef int onlineld_entry_helper(void *session, online_fc_t *fc, uint8_t *data, uint32_t datalen, uint32_t channel, int thr_id, void **user_data);$/;"	t
+onlinepv_entry	dyn.h	/^	onlinepv_entry_helper *onlinepv_entry;$/;"	m	struct:__anon16
+onlinepv_entry_helper	dyn.h	/^typedef int onlinepv_entry_helper(void *session, online_pv_t *pv, uint8_t *data, uint32_t datalen, uint32_t channel, int thr_id, void **user_data);$/;"	t
+pcapName	dyn.c	38;"	d	file:
+port	mddw.h	/^	uint16_t port;$/;"	m	struct:__anon4
+readbuf	dyn.c	/^static uint8_t *readbuf[64];$/;"	v	file:
+readbuflen	dyn.c	/^static uint32_t readbuflen = 10*1024*1024;$/;"	v	file:
+serv_param	dyn.c	/^static tcpserver_param_t serv_param;$/;"	v	file:
+sessId	dyn.h	/^	char      sessId[215];$/;"	m	struct:__anon12
+sessId	dyn.h	/^	char      sessId[215];$/;"	m	struct:__anon13
+sessId	dyn.h	/^	char      sessId[215];$/;"	m	struct:__anon14
+sessIdLen	dyn.h	/^	int       sessIdLen;$/;"	m	struct:__anon12
+sessIdLen	dyn.h	/^	int       sessIdLen;$/;"	m	struct:__anon13
+sessIdLen	dyn.h	/^	int       sessIdLen;$/;"	m	struct:__anon14
+spotbeam	dyn.c	/^	uint8_t  spotbeam;$/;"	m	struct:__anon1	file:
+stanum	dyn.c	/^	uint8_t  stanum;$/;"	m	struct:__anon1	file:
+strContent	SoftBus.h	/^	char	strContent[256];		\/\/ƒ⁄»›£¨◊÷∑˚¥Æ£¨“‘°Æ\\0°ØΩ· ¯$/;"	m	struct:NotifyId
+strDestIP	SoftBus.h	/^	char strDestIP[IP_STR_LEN];		\/\/Ω” ’∑ΩIPµÿ÷∑$/;"	m	struct:BusDataIdent
+strErrMes	SoftBus.h	/^	char strErrMes [ERR_MSG_MAX_LEN];		\/\/¥ÌŒÛ–≈œ¢√Ë ˆ$/;"	m	struct:BusErrMes
+strSrcIP	SoftBus.h	/^	char strSrcIP[IP_STR_LEN];		\/\/∑¢ÀÕ∑ΩIPµÿ÷∑$/;"	m	struct:BusDataIdent
+thr_id	dyn.c	/^	int thr_id;$/;"	m	struct:__anon3	file:
+thr_id	mddw.h	/^	int thr_id[MDDW_MAX_THR_NUM];$/;"	m	struct:__anon10
+thr_id	mddw.h	/^	int thr_id[MDDW_MAX_THR_NUM];$/;"	m	struct:__anon7
+thr_num	mddw.h	/^	int thr_num;$/;"	m	struct:__anon9
+thrnum	mddw.h	/^	int thrnum;                  $/;"	m	struct:__anon7
+thrnum	mddw.h	/^	int thrnum;$/;"	m	struct:__anon10
+thrnum	mddw.h	/^	int thrnum;$/;"	m	struct:__anon8
+time_log_t	dyn.c	/^}time_log_t;$/;"	t	typeref:struct:__anon1	file:
+timeflag	dyn.c	/^	uint8_t  timeflag[10];$/;"	m	struct:__anon1	file:
+timelog	dyn.c	/^	time_log_t timelog;$/;"	m	struct:__anon2	file:
+timeway	dyn.c	/^	uint8_t  timeway;$/;"	m	struct:__anon1	file:
+udpserver_malloc_size	dyn.c	/^static int udpserver_qlen = 65536, udpserver_qsize = 1024 * 4, udpserver_total_mem = 1024 * 1024 * 500, udpserver_malloc_size = 1024 * 1024 * 20;$/;"	v	file:
+udpserver_qlen	dyn.c	/^static int udpserver_qlen = 65536, udpserver_qsize = 1024 * 4, udpserver_total_mem = 1024 * 1024 * 500, udpserver_malloc_size = 1024 * 1024 * 20;$/;"	v	file:
+udpserver_qsize	dyn.c	/^static int udpserver_qlen = 65536, udpserver_qsize = 1024 * 4, udpserver_total_mem = 1024 * 1024 * 500, udpserver_malloc_size = 1024 * 1024 * 20;$/;"	v	file:
+udpserver_rbq_handle	dyn.c	/^void *udpserver_rbq_handle = NULL;$/;"	v
+udpserver_rbq_init	dyn.c	/^static void *udpserver_rbq_init(int moniServerSum)$/;"	f	file:
+udpserver_total_mem	dyn.c	/^static int udpserver_qlen = 65536, udpserver_qsize = 1024 * 4, udpserver_total_mem = 1024 * 1024 * 500, udpserver_malloc_size = 1024 * 1024 * 20;$/;"	v	file:
+uiDataSN	SoftBus.h	/^	unsigned int uiDataSN;			\/\/¡˜ÀÆ∫≈$/;"	m	struct:BusDataIdent
+uiSrcListenPort	SoftBus.h	/^	unsigned int uiSrcListenPort;	\/\/∑¢ÀÕ∑Ωº‡Ã˝∂Àø⁄$/;"	m	struct:BusDataIdent
+usNotifyType	SoftBus.h	/^	unsigned short	usNotifyType;	\/\/Õ®÷™¿‡–Õ£∫0-–≈œ¢£ª1-¥ÌŒÛ–≈œ¢£ª2-Œƒº˛Ω¯∂»$/;"	m	struct:NotifyId
+use_id	dyn.c	/^	int use_id;$/;"	m	struct:__anon3	file:
+userInfo	dyn.h	/^	uint8_t   *userInfo;$/;"	m	struct:__anon12
+userInfo	dyn.h	/^	uint8_t   *userInfo;$/;"	m	struct:__anon13
+userInfo	dyn.h	/^	uint8_t   *userInfo;$/;"	m	struct:__anon14
+userInfoLen	dyn.h	/^	uint32_t  userInfoLen;$/;"	m	struct:__anon12
+userInfoLen	dyn.h	/^	uint32_t  userInfoLen;$/;"	m	struct:__anon13
+userInfoLen	dyn.h	/^	uint32_t  userInfoLen;$/;"	m	struct:__anon14
+userInfoType	dyn.h	/^	uint32_t  userInfoType;  \/\/10005001->userInfoType,‰∏∫userInfoÁöÑÁ±ªÂûãÊåáÂÆöÈ°π,0x10005094‰∏∫Áî®Êà∑Ê†áÁ≠æÂèØÁî®ÊúÄÂ∞èÂÄº$/;"	m	struct:__anon12
+userInfoType	dyn.h	/^	uint32_t  userInfoType;  \/\/10005001->userInfoType,‰∏∫userInfoÁöÑÁ±ªÂûãÊåáÂÆöÈ°π,0x10005094‰∏∫Áî®Êà∑Ê†áÁ≠æÂèØÁî®ÊúÄÂ∞èÂÄº$/;"	m	struct:__anon13
+userInfoType	dyn.h	/^	uint32_t  userInfoType;  \/\/10005001->userInfoType,‰∏∫userInfoÁöÑÁ±ªÂûãÊåáÂÆöÈ°π,0x10005094‰∏∫Áî®Êà∑Ê†áÁ≠æÂèØÁî®ÊúÄÂ∞èÂÄº$/;"	m	struct:__anon14
+y_data_1	dyn.c	/^char y_data_1[100] = {0xC3, 0xF3, 0xC3 , 0xF3 , 0x20 , 0x0B , 0x20 , 0x0B , 0x20 , 0x00 , 0x20 , 0x00 , 0x20 , 0x00 , 0x20 , 0x13 , 0x01 , 0x01 , 0x16 , 0x23 , 0x16 , 0x00 , 0x0C , 0x75 , 0x4D , 0x20 , 0x01 , 0x20 , 0x54 , 0xB9 , 0x20 , 0x01 , 0x00 , 0x00 , 0x00 , 0x20 , 0xD4 , 0x00 , 0x00 , 0x00 , 0x20 , 0xAE , 0x02 , 0x12 , 0x92 , 0x12 , 0x92 , 0x12 , 0x92 , 0x3A , 0x12 , 0xAE , 0x02 , 0xAE , 0x03 , 0x59 , 0x13 , 0x5B , 0xA2 , 0x12 , 0x93 , 0x5B , 0xA3 , 0x3A , 0x12 , 0x3A , 0x12 , 0x3A , 0x12 , 0x3A , 0x12 , 0x3A , 0x12, 0x3B};$/;"	v
+y_data_2	dyn.c	/^char y_data_2[100] = {0xC3, 0xF3, 0xC3 , 0xF3 , 0x20 , 0x0B , 0x20 , 0x0A , 0x20 , 0x00 , 0x20 , 0x00 , 0x20 , 0x00 , 0x20 , 0x13 , 0x01 , 0x01 , 0x16 , 0x23 , 0x16 , 0x00 , 0x0C , 0x75 , 0x4D , 0x20 , 0x02 , 0x20 , 0xF9 , 0xBE , 0x20 , 0x7F , 0x19 , 0x20 , 0x70 , 0x60 , 0x7E , 0x60 , 0x7F , 0x60 , 0x3B };$/;"	v
+y_data_3	dyn.c	/^char y_data_3[100] = {0xC3, 0xF3 , 0xC3 , 0xF3 , 0x20 , 0x0B , 0x20 , 0x0D , 0x20 , 0x00 , 0x20 , 0x00 , 0x20 , 0x00 , 0x20 , 0x13 , 0x01 , 0x01 , 0x16 , 0x25 , 0x30 , 0x00 , 0x04 , 0xE6 , 0x4F , 0x20 , 0x03 , 0x20 , 0xE0 , 0xBD , 0x20 , 0x01 , 0x00 , 0x00 , 0x00 , 0x20 , 0x4A , 0xC1 , 0xC5 , 0x01 , 0x20 , 0xF0 , 0xB3 , 0x1A , 0x00 , 0x20 , 0x01 , 0x00 , 0x00 , 0x00 , 0x20 , 0x34 , 0x3B};$/;"	v
+y_data_4	dyn.c	/^char y_data_4[100] = {0xC3, 0xF3 , 0xC3 , 0xF3 , 0x20 , 0x08 , 0x20 , 0x0A , 0x20 , 0x00 , 0x20 , 0x00 , 0x20 , 0x00 , 0x20 , 0x13 , 0x01 , 0x01 , 0x16 , 0x25 , 0x30 , 0x00 , 0x04 , 0xE6 , 0x4F , 0x20 , 0x01 , 0x20 , 0x17 , 0xC3 , 0x20 , 0xD1 , 0xDC , 0x00 , 0x14 , 0x20 , 0x01 , 0x3B};$/;"	v
