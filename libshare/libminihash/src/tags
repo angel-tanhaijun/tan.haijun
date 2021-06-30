@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APHash	minihash.c	/^uint32_t APHash(uint8_t* str, uint32_t len)$/;"	f
+AR	Makefile	/^AR ?= ar$/;"	m
+BKDRHash	minihash.c	/^uint32_t BKDRHash(uint8_t* str, uint32_t len)$/;"	f
+BPHash	minihash.c	/^uint32_t BPHash(uint8_t* str, uint32_t len)$/;"	f
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS ?= -g -Wall -rdynamic -w  $/;"	m
+DEKHash	minihash.c	/^uint32_t DEKHash(uint8_t* str, uint32_t len)$/;"	f
+DFLAGS	Makefile	/^DFLAGS = -fpic -shared$/;"	m
+DJBHash	minihash.c	/^uint32_t DJBHash(uint8_t* str, uint32_t len)$/;"	f
+DLIB	Makefile	/^DLIB := libminihash.so$/;"	m
+ELFHash	minihash.c	/^uint32_t ELFHash(uint8_t* str, uint32_t len)$/;"	f
+FNVHash	minihash.c	/^uint32_t FNVHash(uint8_t* str, uint32_t len)$/;"	f
+GIT_ENV_VERSION	Makefile	/^GIT_ENV_VERSION=$(shell chmod +x .\/git-env.sh && .\/git-env.sh)$/;"	m
+JSHash	minihash.c	/^uint32_t JSHash(uint8_t* str, uint32_t len)$/;"	f
+LEFTSHIFT	minihash.c	205;"	d	file:
+LIBSHARES	Makefile	/^LIBSHARES = ..\/..\/$/;"	m
+MINIHASH_NODE_NOPY	minihash.c	333;"	d	file:
+MINIHASH_NODE_OPY	minihash.c	332;"	d	file:
+MODIFIED	Makefile	/^MODIFIED    = "\\"$(GIT_ENV_VERSION) $(MODIFIED_D) $(MODIFIED_T)"\\"$/;"	m
+MODIFIED_D	Makefile	/^MODIFIED_D := $(shell date +%F)$/;"	m
+MODIFIED_T	Makefile	/^MODIFIED_T := $(shell date +%T)$/;"	m
+OBJ	Makefile	/^OBJ  := $(patsubst %.c,%.o,$(SRC))$/;"	m
+OBJH	Makefile	/^OBJH := $(wildcard *.h)$/;"	m
+PJWHash	minihash.c	/^uint32_t PJWHash(uint8_t* str, uint32_t len)$/;"	f
+PLATFORM_PATH	Makefile	/^PLATFORM_PATH = ..\/..\/$/;"	m
+RSHash	minihash.c	/^uint32_t RSHash(uint8_t* str, uint32_t len)      $/;"	f
+SDBMHash	minihash.c	/^uint32_t SDBMHash(uint8_t* str, uint32_t len)$/;"	f
+SFLAGS	Makefile	/^SFLAGS = -c$/;"	m
+SLIB	Makefile	/^SLIB := libminihash.a$/;"	m
+SRC	Makefile	/^SRC  := $(wildcard *.c )$/;"	m
+_MINIHASH_H_	minihash.h	9;"	d
+bucket	minihash.c	/^	minihash_node_t **bucket;$/;"	m	struct:__anon2	file:
+bucketn	minihash.c	/^	uint32_t bucketn;$/;"	m	struct:__anon2	file:
+et_mode	minihash.c	/^	uint32_t et_mode;$/;"	m	struct:__anon2	file:
+fifo_expire	minihash.h	/^	fifo_expire,$/;"	e	enum:__anon1
+forbid_expire	minihash.h	/^	forbid_expire = 0,  $/;"	e	enum:__anon1
+get_gitenv	git-env.sh	/^get_gitenv ()$/;"	f
+insert_time	minihash.c	/^	uint64_t insert_time;$/;"	m	struct:minihash_node	file:
+judge_gitcommit	git-env.sh	/^judge_gitcommit ()$/;"	f
+k	minihash.c	/^static const uint32_t k[64] = {$/;"	v	file:
+key	minihash.c	/^	uint8_t  *key;$/;"	m	struct:minihash_node	file:
+key_len	minihash.c	/^	uint32_t key_len;$/;"	m	struct:__anon2	file:
+max_expire	minihash.h	/^	max_expire,$/;"	e	enum:__anon1
+minihash_add_node	minihash.c	/^int minihash_add_node(void *minihash, uint8_t *key, uint32_t key_len, uint8_t *value, uint32_t value_len)$/;"	f
+minihash_build_table	minihash.c	/^int minihash_build_table(void *minihash)$/;"	f
+minihash_create	minihash.c	/^void *minihash_create(uint32_t bucket, uint32_t node, uint32_t key_len, uint32_t value_len, uint32_t et_mode)$/;"	f
+minihash_destroy	minihash.c	/^int minihash_destroy(void *minihash)$/;"	f
+minihash_find_bucket	minihash.c	/^static uint32_t minihash_find_bucket(minihash_t *minihash, uint8_t *key, uint32_t key_len)$/;"	f	file:
+minihash_find_node	minihash.c	/^void *minihash_find_node(void *minihash, uint8_t *key, uint32_t key_len)$/;"	f
+minihash_get_usec	minihash.c	/^static uint64_t minihash_get_usec()$/;"	f	file:
+minihash_md5	minihash.c	/^static void minihash_md5(const uint8_t *initial_msg, size_t initial_len, uint8_t* digest){$/;"	f	file:
+minihash_minus_node	minihash.c	/^int minihash_minus_node(void *minihash, uint8_t *key, uint32_t key_len)$/;"	f
+minihash_node	minihash.c	/^typedef struct minihash_node{$/;"	s	file:
+minihash_node_t	minihash.c	/^}minihash_node_t;$/;"	t	typeref:struct:minihash_node	file:
+minihash_t	minihash.c	/^}minihash_t;$/;"	t	typeref:struct:__anon2	file:
+next	minihash.c	/^	struct   minihash_node *next;$/;"	m	struct:minihash_node	typeref:struct:minihash_node::minihash_node	file:
+node_count	minihash.c	/^	uint32_t *node_count;$/;"	m	struct:__anon2	file:
+node_opy	minihash.c	/^	uint8_t  node_opy;$/;"	m	struct:minihash_node	file:
+noden	minihash.c	/^	uint32_t noden;$/;"	m	struct:__anon2	file:
+overtime_expire	minihash.h	/^	overtime_expire,$/;"	e	enum:__anon1
+r	minihash.c	/^static const uint32_t r[64] = {7, 12, 17, 22, 7, 12, 17, 22, 7, 12, 17, 22, 7, 12, 17, 22,$/;"	v	file:
+to_bytes	minihash.c	/^static void to_bytes(uint32_t val, uint8_t *bytes){$/;"	f	file:
+to_int32	minihash.c	/^static uint32_t to_int32(const uint8_t *bytes){$/;"	f	file:
+updata_time	minihash.c	/^	uint64_t updata_time;$/;"	m	struct:minihash_node	file:
+value	minihash.c	/^	uint8_t  *value;$/;"	m	struct:minihash_node	file:
+value_len	minihash.c	/^	uint32_t value_len;$/;"	m	struct:__anon2	file:
